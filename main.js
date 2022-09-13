@@ -82,7 +82,7 @@ function createFile(filePath, content, event) {
             console.log("An error ocurred creating the file " + err.message)
         }
 
-        console.log("The file has been succesfully saved");
+        console.log("The file has been successfully saved");
         event.sender.send('create-file', filePath);
     });
 }
